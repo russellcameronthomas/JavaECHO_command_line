@@ -13,16 +13,16 @@ This version is both updated and stripped down to run from the command line.  It
 
 I dropped all the GUI classes and created a new main class `App` with the essential pieces pulled from the old GUI.
 
-## Goal
+### Goal
 The purpose for this code is to make JavaECHO more accessible to reasearchers, especially those who want to incorporate it into their agent architecture or otherwise modify or extend it.  Myself, I aim to do both, including possibly a port to Javascript in order to run it in modern browsers without needing a Java plugin.
 
 Therefore, no other substantive changes or improvements will be made to this version except to set the execution parameters through the command line. Another extention I will add: read input from a file, since this would be a command line option and would preserve the existing code.
 
-# Known Bugs
+## Known Bugs
 
 1. Currently, command line arguments don't work. This should be a simple fix. They were working just before I created this repo. :-)
 
-# Install and Run Executable
+## Install and Run Executable
 
 1. Download `JavaECHO.jar` into a folder of your choice. It has all the dependencies included in it.
     - The SHA-1 checksum is: 047f507f17a4c8123ea6b084f50315f5fae89b38
@@ -30,7 +30,7 @@ Therefore, no other substantive changes or improvements will be made to this ver
     - All input and output are done through the terminal.
 3. To run, type `java -jar JavaEcho.jar`, followed by any command line arguements
 
-## Runtime Arguments
+### Runtime Arguments
 Currently, there is only one argument: "-t" followed by an integer "#" between 0 and 11 to select the input code + data:
     
 | #  | Title | Description |
@@ -47,8 +47,12 @@ Currently, there is only one argument: "-t" followed by an integer "#" between 0
 | 9 | evidence | Evidence and acceptability, from p. 79-80 of *Conceptual Revolutions* |
 | 10 | darwin | The Darwin example from page 144 of *Conceptual Revolutions* |
 | 11 | wegener | Wegener example from p.184, Table 7.2 of *Conceptual Revolutions* |
-    
-# Credits
+
+## Install Source Code
+1. Click the "Clone or Download" button.  "Clone" the git repo or "Download" a zip file.
+2. I use NetBeans IDE and Maven for build and dependency management, so both `pom.xml` and 'nbactions.xml` files are included. If you use a different IDE and build software, you'll need to convert.
+
+## Credits
 
 - [Toby Donaldson](https://www.sfu.ca/computing/people/faculty/tobydonaldson.html), now Senior Lecturer, School of Computing Science at Simon Fraser University, is the the implementor of JavaECHO. 
 - [Paul Thagard](http://cogsci.uwaterloo.ca/Biographies/pault.html), Emeritus Professor of Philosophy at University of Waterloo (retired Oct. 2016), is designer and author of ECHO.
