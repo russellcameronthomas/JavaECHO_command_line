@@ -12,7 +12,7 @@ import java.util.Iterator;
 /**
  * Command line JavaECHO - prints results to System.out
  * 
- * 12-14-2016  RCT - Created executable class by pulling code from ECHOgui.java
+ * 12-14-2016  RCT - Created this executable class by pulling code from ECHOgui.java
  *           Replaced depreciated classes:
  *             - Vector and Hashtable with ArrayList and HashMap, 
  *             - Enumeration with Iterator
