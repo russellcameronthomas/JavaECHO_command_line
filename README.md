@@ -4,7 +4,7 @@ From the [JavaECHO home page](http://cogsci.uwaterloo.ca/JavaECHO/jecho.html):
 
 > JavaECHO is an implementation of ECHO, a system for computing explanatory coherence developed by [Paul Thagard](http://cogsci.uwaterloo.ca/Biographies/pault.html) and explained in detail in his 1992 book *Conceptual Revolutions*.
 
-This version is both updated and stripped down to run from the command line.  It was updated because the code was last updated in 2001 and much has changed with Java since then. In particular, several classes have been depreciated for performance and/or security reasons.  Most of my changes involved simply replacements of new classes for old:
+This version is both updated and stripped down to run from the command line.  It was modified because the code was last updated in 2001 and much has changed with Java since then. In particular, several classes have been depreciated for performance and/or security reasons.  Most of my changes involved simply replacements of new classes for old:
 
 - Replaced `Vector` with `ArrayList`
 - Replaced `Hashtable` with `HashMap`, 
@@ -12,6 +12,10 @@ This version is both updated and stripped down to run from the command line.  It
 - Replaced `StringBufferInputStream` with `ByteArrayInputStream`
 
 I dropped all the GUI classes and created a new main class `App` with the essential pieces pulled from the old GUI.
+
+### License
+
+This software is free and open source, via [MIT License](https://github.com/russellcameronthomas/JavaECHO_command_line/blob/master/LICENCE.txt).
 
 ### Goal
 The purpose for this code is to make JavaECHO more accessible to reasearchers, especially those who want to incorporate it into their agent architecture or otherwise modify or extend it.  Myself, I aim to do both, including possibly a port to Javascript in order to run it in modern browsers without needing a Java plugin.
