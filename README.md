@@ -48,6 +48,9 @@ Currently, there is only one argument: "-t" followed by an integer "#" between 0
 | 10 | darwin | The Darwin example from page 144 of *Conceptual Revolutions* |
 | 11 | wegener | Wegener example from p.184, Table 7.2 of *Conceptual Revolutions* |
     
+# Credits
 
+- [Toby Donaldson](https://www.sfu.ca/computing/people/faculty/tobydonaldson.html), now Senior Lecturer, School of Computing Science at Simon Fraser University, is the the implementor of JavaECHO. 
+- [Paul Thagard](http://cogsci.uwaterloo.ca/Biographies/pault.html), Emeritus Professor of Philosophy at University of Waterloo (retired Oct. 2016), is designer and author of ECHO.
     
     
