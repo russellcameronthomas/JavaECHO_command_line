@@ -37,7 +37,7 @@ Therefore, no other substantive changes or improvements will be made to this ver
 3. To run, type `java -jar JavaEcho.jar`, followed by any command line arguements
 
 ### Runtime Arguments
-Currently, there is only one argument: "-t N", where `N` is an integer between 0 and 11 that selects the input index (listed the table below). For example, to use "ulcers_1994" as input, enter:
+Currently, there is only one argument: `-t N`, where `N` is an integer between 0 and 11 that selects the input index (listed the table below). For example, to use "ulcers_1994" as input, enter:
 
 `java -jar JavaEcho.jar -t 1`
     
