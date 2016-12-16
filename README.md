@@ -53,8 +53,8 @@ Currently, there is only one argument: "-t" followed by an integer "#" between 0
 | 11 | wegener | Wegener example from p.184, Table 7.2 of *Conceptual Revolutions* |
 
 ## Install Source Code
-1. Click the "Clone or Download" button.  "Clone" the git repo or "Download" a zip file.
-2. I use NetBeans IDE and Maven for build and dependency management, so both `pom.xml` and 'nbactions.xml` files are included. If you use a different IDE and build software, you'll need to convert.
+1. Click the green "Clone or Download" button on upper right of the main page to "Clone" the git repo or "Download" a zip file.
+2. I use NetBeans IDE and Maven for build and dependency management, so both `pom.xml` and `nbactions.xml` files are included. If you use a different IDE and build software, you'll need to convert.
 
 ## Credits
 
